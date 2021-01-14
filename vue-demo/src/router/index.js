@@ -32,6 +32,15 @@ export default new Router({
   	name:'detail',
   	component:()=>import("../view/detail")
   },
-
+  {
+  	path:'/addTable',
+  	name:'addTable',
+  	component:()=>import("../view/addTable")
+  },
+  {
+  	path:'/toComponent',
+  	name:'toComponent',
+  	component:()=>import("../view/toComponent")
+  },
   ]
 })
