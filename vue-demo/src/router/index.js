@@ -42,5 +42,10 @@ export default new Router({
   	name:'toComponent',
   	component:()=>import("../view/toComponent")
   },
+  {
+  	path:'/shopCar',
+  	name:'shopCar',
+  	component:()=>import("../view/shopCar")
+  },
   ]
 })

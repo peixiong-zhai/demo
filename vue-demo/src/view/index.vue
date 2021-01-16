@@ -6,6 +6,7 @@
     <el-button @click="goPage('/detail')" type="primary">detail</el-button>
 	<el-button @click="goPage('/addTable')" type="primary">表格的增删改</el-button>
   <el-button @click="goPage('/toComponent')" type="primary">组件传值</el-button>
+  <el-button @click="goPage('/shopCar')" type="primary">购物车</el-button>
   </div>
 
 

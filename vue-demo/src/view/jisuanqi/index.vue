@@ -1,6 +1,5 @@
 <template>
   <div class="box">
-    <div>{{this.num}}</div>
        <div class="center">
         <el-input class="put" v-model="number"></el-input>
       </div>
@@ -82,9 +81,6 @@
         return result;
       }
     },
-    mounted(){
-      this.num=this.$route.params.num
-    }
   }
 </script>
 
