@@ -46,7 +46,8 @@
             },
             createFilter(queryString) {
               return (restaurants) => {
-                return (restaurants.value.toLowerCase().indexOf(queryString.toLowerCase()) === 0);
+                return (restaurants.value.toLowerCase().indexOf(queryString.toLowerCase()) === 0||restaurants.value.toLowerCase().indexOf(queryString.toLowerCase()) === 1);//indexof返回指
+                //定字符串在字符串中首次出现时的位置，对大小写敏感。返回值为-1表示没有出现匹配值，否则返回指定字符串出现的头index
               };
             },
             loadAll() {
@@ -100,6 +101,7 @@
             },
             handleSelect(item) {
               console.log(item);
+              console.log(item.value.toLowerCase())
             }
     },
     mounted(){
