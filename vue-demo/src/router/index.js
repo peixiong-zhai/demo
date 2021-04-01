@@ -23,9 +23,9 @@ export default new Router({
     component:()=>import("../view/input/index.vue")
   },
   {
-  	path:'/table',
-  	name:'table',
-  	component:()=>import("../view/table")
+  	path:'/tables',
+  	name:'tables',
+  	component:()=>import("../view/tables")
   },
   {
   	path:'/detail',
